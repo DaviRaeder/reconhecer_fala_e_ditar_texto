@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconhecedor de Voz</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reconhecedor de Voz</h1>
+        <textarea id="area-texto" placeholder="O texto reconhecido aparecerá aqui..."></textarea>
+        <input type="text" id="entrada-texto" placeholder="Digite o texto para ouvir aqui...">
+        <button onclick="reconhecerFala()">Reconhecer Fala</button>
+        <button onclick="falarTexto()">Falar Texto</button>
+        <button onclick="limparTexto()">Limpar</button>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
