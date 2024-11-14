@@ -20,6 +20,7 @@ voz_em_texto/
 ├── templates/
 │   └── index.html
 └── app.py
+```
 
 ## Requisitos
 
